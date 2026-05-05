@@ -1,5 +1,3 @@
-const { get } = require('http')
-
 const fs = require('fs').promises
 
 const getServicios = async (req, res) => {
@@ -33,7 +31,7 @@ const getServiciosById = async (req, res) => {
   } catch (error) {
     console.log(error)
     return res.status(500).JSON({
-      error: `No se pudo obtener el datalle del servicio del id n° {id}`
+      error: 'No se pudo obtener el datalle del servicio del id n° {id}'
     })
   }
 }
