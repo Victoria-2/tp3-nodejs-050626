@@ -23,7 +23,7 @@ logs
 .DS_Store
 Thumbs.db
 
-# Carpetas
-.vscode
-.husky
+# --
+vscode/
+.husky/
 .eslintrc.json
